@@ -13,13 +13,13 @@ let interval;
 modeButton.addEventListener("click", function(){
     if (mode === "dark"){
         modeButton.className = modeButton.className.replace("far fa-sun","far fa-moon");
-        document.body.style.background = "#EFEFEF";
+        document.body.style.background = "#f0f0f0";
         displaytime.style.color = "#000000";
         mode = "light";
     }
     else {
         modeButton.className = modeButton.className.replace("far fa-moon","far fa-sun");
-        document.body.style.background =  "#0c0f20";
+        document.body.style.background =  "#101010";
         displaytime.style.color = "#EFEFEF";
         mode = "dark";
     }
