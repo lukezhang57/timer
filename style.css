@@ -1,0 +1,173 @@
+body {
+    background-color: black;
+    margin: 0;
+    user-select: none;
+}
+#timer-container {
+    position: absolute;
+    height: 250px;
+    width: 600px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#time-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+#time {
+    color: white;
+    font-family: 'Lato';
+    font-size: 96;
+    text-align: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+#button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+button {
+    color: #1cbfff;
+    font-family: 'Lato';
+    border-radius: 10000px;
+    font-size: 28;
+    border: 2px solid #1cbfff;
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: transparent;
+    transition: 0.25s all;
+}
+
+button:hover {
+    color: white;
+    background-color: #1cbfff;
+    cursor: pointer;
+}
+
+#container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+}
+
+#night-day{
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+#github {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.button2 {
+    color:  #1cbfff;
+    font-family: 'Lato';
+    border-radius: 10000px;
+    font-size: 30px;
+    border: 2px solid #1cbfff;
+    display: inline-block;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    background-color: transparent;
+    transition: 0.25s all;
+    text-decoration: none;
+}
+
+.button2:hover {
+    color: white;
+    background-color: #1cbfff;
+    cursor: pointer;
+}
+
+#add {
+    color: #1cd68f;
+    font-family: 'Lato';
+    width:50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    border: 2px solid #1cd68f;
+    margin: 25px;
+    font-weight: bold;
+    transition: 0.25s all;
+}
+#add:hover{
+    color: white;
+    background-color: #1cd68f;
+    cursor: pointer;
+}
+
+#subtract {
+    color: #b30c0c;
+    font-family: 'Lato';
+    width:50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    border: 2px solid #d31a1a;
+    margin: 25px;
+    font-weight: bold;
+    transition: 0.25s all;
+}
+
+#subtract:hover{
+    color: white;
+    background-color:#d31a1a;
+    cursor: pointer;
+}
+
+#modeIcon {
+    font-size: 30px;
+    color: #1cbfff;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 10px;
+    border: 2px solid #1cbfff;
+    border-radius: 10000px;
+    background-color: transparent;
+}
+
+#modeIcon:hover{
+    background-color: #1cbfff;
+    color: white;
+    cursor: pointer;
+    transition: 0.25s all;
+}
