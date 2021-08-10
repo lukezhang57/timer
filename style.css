@@ -58,7 +58,7 @@ button {
 }
 
 button:hover {
-    color: white;
+    color: rgb(240,240,240);
     background-color: #36d4c7;
     cursor: pointer;
 }
@@ -105,12 +105,12 @@ button:hover {
 }
 
 .button2:hover {
-    color: white;
+    color: rgb(240,240,240);
     background-color: #36d4c7;
     cursor: pointer;
 }
 
-#add {
+.add {
     color: #1cd68f;
     font-family: 'Lato';
     width:50px;
@@ -123,13 +123,32 @@ button:hover {
     font-weight: bold;
     transition: 0.25s all;
 }
-#add:hover{
-    color: white;
+.add:hover{
+    color: rgb(240,240,240);
     background-color: #1cd68f;
     cursor: pointer;
 }
+.add2 {
+    color: rgb(240,240,240);
+    background-color: #1cd68f;
+    font-family: 'Lato';
+    width:50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    border: 2px solid #1cd68f;
+    margin: 25px;
+    font-weight: bold;
+    transition: 0.25s all;
+}
+.add2:hover{
+    color: #1cd68f;
+    background-color: rgb(240,240,240);
+    cursor: pointer;
+}
 
-#subtract {
+.subtract {
     color: #b30c0c;
     font-family: 'Lato';
     width:50px;
@@ -143,9 +162,31 @@ button:hover {
     transition: 0.25s all;
 }
 
-#subtract:hover{
-    color: white;
+.subtract:hover{
+    color: rgb(240,240,240);
     background-color:#d31a1a;
+    cursor: pointer;
+}
+
+
+.subtract2 {
+    color: rgb(240,240,240);
+    background-color: #d31a1a;
+    font-family: 'Lato';
+    width:50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 35px;
+    border: 2px solid #d31a1a;
+    margin: 25px;
+    font-weight: bold;
+    transition: 0.25s all;
+}
+
+.subtract2:hover{
+    color: #d31a1a;
+    background-color: rgb(240,240,240);
     cursor: pointer;
 }
 
@@ -167,7 +208,7 @@ button:hover {
 
 #modeIcon:hover{
     background-color: #36d4c7;
-    color: white;
+    color: rgb(240,240,240);
     cursor: pointer;
     transition: 0.25s all;
 }

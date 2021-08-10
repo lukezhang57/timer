@@ -2,6 +2,8 @@ const displaytime = document.getElementById("time")
 const start = document.getElementById("startstop")
 const reset = document.getElementById("reset")
 const modeButton = document.getElementById("modeIcon")
+const add = document.getElementById("addButton")
+const subtract = document.getElementById("subtractButton")
 
 mode = "dark";
 
@@ -13,12 +15,18 @@ let interval;
 modeButton.addEventListener("click", function(){
     if (mode === "dark"){
         modeButton.className = modeButton.className.replace("far fa-sun","far fa-moon");
+        add.className = add.className.replace("add","add2")
+        subtract.className = subtract.className.replace("subtract","subtract2")
+
         document.body.style.background = "#f0f0f0";
         displaytime.style.color = "#000000";
         mode = "light";
     }
     else {
         modeButton.className = modeButton.className.replace("far fa-moon","far fa-sun");
+        add.className = add.className.replace("add2","add")
+        subtract.className = subtract.className.replace("subtract2","subtract")
+        
         document.body.style.background =  "#101010";
         displaytime.style.color = "#EFEFEF";
         mode = "dark";
