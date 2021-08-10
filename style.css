@@ -15,7 +15,6 @@ body {
     align-content: center;
     flex-direction: column;
 }
-
 #time-container{
     display: flex;
     flex-direction: row;
@@ -23,7 +22,6 @@ body {
     align-content: center;
     align-items: center;
 }
-
 #time {
     color: white;
     font-family: 'Share Tech Mono';
@@ -32,37 +30,12 @@ body {
     flex-direction: column;
     margin: 0;
 }
-
 #button-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
 }
-
-button {
-    color: #36d4c7;
-    font-family: 'Share Tech Mono';
-    border-radius: 10000px;
-    font-size: 28;
-    border: 2px solid #36d4c7;
-    display: inline-block;
-    text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 10px;
-    background-color: transparent;
-    transition: 0.25s all;
-}
-
-button:hover {
-    color: rgb(240,240,240);
-    background-color: #36d4c7;
-    cursor: pointer;
-}
-
 #container {
     top: 50%;
     left: 50%;
@@ -73,43 +46,30 @@ button:hover {
     align-content: center;
     flex-direction: row;
 }
-
-#night-day{
-    position: absolute;
-    bottom: 10px;
-    right: 10px;
-}
-
 #github {
     position: absolute;
     bottom: 10px;
     left: 10px;
 }
-
 .button2 {
     color:  #36d4c7;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: 'Share Tech Mono';
     border-radius: 10000px;
-    font-size: 30px;
+    font-size: 28px;
     border: 2px solid #36d4c7;
     display: inline-block;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 0px;
     margin: 10px;
     background-color: transparent;
     transition: 0.25s all;
     text-decoration: none;
 }
-
 .button2:hover {
     color: rgb(240,240,240);
     background-color: #36d4c7;
     cursor: pointer;
 }
-
 .add {
     color: #1cd68f;
     font-family: 'Lato';
@@ -147,7 +107,6 @@ button:hover {
     background-color: rgb(240,240,240);
     cursor: pointer;
 }
-
 .subtract {
     color: #b30c0c;
     font-family: 'Lato';
@@ -161,14 +120,11 @@ button:hover {
     font-weight: bold;
     transition: 0.25s all;
 }
-
 .subtract:hover{
     color: rgb(240,240,240);
     background-color:#d31a1a;
     cursor: pointer;
 }
-
-
 .subtract2 {
     color: rgb(240,240,240);
     background-color: #d31a1a;
@@ -183,29 +139,23 @@ button:hover {
     font-weight: bold;
     transition: 0.25s all;
 }
-
 .subtract2:hover{
     color: #d31a1a;
     background-color: rgb(240,240,240);
     cursor: pointer;
 }
-
 #modeIcon {
-    font-size: 30px;
+    font-size: 28px;
     color: #36d4c7;
     position: absolute;
     bottom: 10px;
     right: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding: 5px 20px;
     margin: 10px;
     border: 2px solid #36d4c7;
     border-radius: 10000px;
     background-color: transparent;
 }
-
 #modeIcon:hover{
     background-color: #36d4c7;
     color: rgb(240,240,240);
