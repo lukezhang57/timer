@@ -99,7 +99,7 @@ subtract.addEventListener("click",function(){
     seconds -= 15;
     if (seconds < 0 && minutes > 0){
         minutes--;
-        seconds = 45;
+        seconds = 60 + seconds;
     }
     if (seconds < 0 && minutes <= 0 ){
         seconds = 0;
