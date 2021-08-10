@@ -26,7 +26,7 @@ body {
 
 #time {
     color: white;
-    font-family: 'Lato';
+    font-family: 'Share Tech Mono';
     font-size: 96;
     text-align: center;
     flex-direction: column;
@@ -42,7 +42,7 @@ body {
 
 button {
     color: #36d4c7;
-    font-family: 'Open Sans';
+    font-family: 'Share Tech Mono';
     border-radius: 10000px;
     font-size: 28;
     border: 2px solid #36d4c7;
