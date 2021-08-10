@@ -95,7 +95,7 @@ function setTime(){
 }
 
 add.addEventListener("click",function(){
-    seconds += 15;
+    seconds += 10;
     if (seconds >= 60){
         minutes = minutes + Math.floor(seconds/60);
         seconds = seconds % 60;
@@ -104,7 +104,7 @@ add.addEventListener("click",function(){
 })
 
 subtract.addEventListener("click",function(){
-    seconds -= 15;
+    seconds -= 10;
     if (seconds < 0 && minutes > 0){
         minutes--;
         seconds = 60 + seconds;
